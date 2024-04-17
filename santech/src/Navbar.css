@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat&family=Poppins&display=swap'); */
+
+.navbar a {
+    text-decoration: none;
+    color: #1f2b52;
+    font-weight:500;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #1f2b52;
+    font-weight:500;
+}
+.sidebar a:hover {
+  color:#eaecf1;
+  background-color: #1f2b52;
+  /* transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; */
+ 
+}
+
+.menuitems a{
+    color:#1f2b52;
+    text-decoration: none;
+    /* transition: color 0.1s ease-in-out, background-color 0.50s ease-in-out; */
+    transition: color 0.3s ease-in-out;
+}
+.menuitemss .menuitems:hover {
+    
+    background-color: #1f2b52;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+.menuitemss .menuitems a:hover {
+    color:#eaecf1;
+    background-color: #1f2b52;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+   
+}
+
+.navbar a {
+    color: #1f2b52;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    background: none;
+    font-weight:500;
+    
+  }
+  
+  .navbar a::before {
+    margin-left: auto;
+  }
+  
+  .navbar a::after, .navbar a::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#1c4d9a ;
+    display: block;
+    transition: 0.8s;
+  }
+  .navbar a:hover::after {
+    width: 100%;
+    line-height: 25.6px;
+  }
